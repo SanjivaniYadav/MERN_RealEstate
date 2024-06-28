@@ -27,7 +27,6 @@ export default function CreateListing() {
     parking: false,
     furnished: false,
   });
-
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState(false);
@@ -138,6 +137,7 @@ export default function CreateListing() {
 
       if (+formData.regularPrice < +formData.discountPrice)
         return setError("Discount price must be lower than reqular price");
+
       setLoading(true);
       setError(false);
 
