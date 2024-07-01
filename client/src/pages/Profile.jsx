@@ -139,7 +139,7 @@ export default function Profile() {
       const res = await fetch(`/api/user/listings/${currentUser._id}`);
       const data = await res.json();
       if (data.success === false) {
-        showListingsError(true);
+        setShowListingsError(true);
         return;
       }
 
@@ -259,6 +259,7 @@ export default function Profile() {
       <button onClick={handleShowListings} className="text-green-700 w-full">
         Show Listings
       </button>
+
       <p className="text-red-700 mt-5">
         {showListingsError ? "Error showing listings" : ""}
       </p>
