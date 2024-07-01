@@ -3,9 +3,8 @@
 This is an real estate website where you can search for specific real estate property and it gives you the searched result. Also you can contact the post generator and sign-in and sign-out authentication.
 with this user can add posts and details about property.
 Let's  Explore more about it!
----
-visit this site - [Click here](https://realestate-1fqj.onrender.com)
 
+visit this site - [Click here](https://realestate-1fqj.onrender.com)
 
 ## ⚙️ Technologies Used
 
